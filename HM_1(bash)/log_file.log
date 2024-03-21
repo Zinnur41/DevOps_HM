@@ -1,0 +1,37 @@
+2024-03-21 14:34:27 creating user direcrories
+2024-03-21 14:34:27 create directory directory//root and add 755 root
+2024-03-21 14:34:28 create directory directory//daemon and add 755 root
+2024-03-21 14:34:28 create directory directory//bin and add 755 root
+2024-03-21 14:34:28 create directory directory//sys and add 755 root
+2024-03-21 14:34:28 create directory directory//sync and add 755 root
+2024-03-21 14:34:28 create directory directory//games and add 755 root
+2024-03-21 14:34:28 create directory directory//man and add 755 root
+2024-03-21 14:34:28 create directory directory//lp and add 755 root
+2024-03-21 14:34:28 create directory directory//mail and add 755 root
+2024-03-21 14:34:28 create directory directory//news and add 755 root
+2024-03-21 14:34:28 create directory directory//uucp and add 755 root
+2024-03-21 14:34:28 create directory directory//proxy and add 755 root
+2024-03-21 14:34:28 create directory directory//www-data and add 755 root
+2024-03-21 14:34:28 create directory directory//backup and add 755 root
+2024-03-21 14:34:28 create directory directory//list and add 755 root
+2024-03-21 14:34:28 create directory directory//irc and add 755 root
+2024-03-21 14:34:28 create directory directory//_apt and add 755 root
+2024-03-21 14:34:28 create directory directory//systemd-network and add 755 root
+2024-03-21 14:34:28 create directory directory//tss and add 755 root
+2024-03-21 14:34:28 create directory directory//systemd-timesync and add 755 root
+2024-03-21 14:34:28 create directory directory//messagebus and add 755 root
+2024-03-21 14:34:28 create directory directory//avahi-autoipd and add 755 root
+2024-03-21 14:34:28 create directory directory//usbmux and add 755 root
+2024-03-21 14:34:28 create directory directory//dnsmasq and add 755 root
+2024-03-21 14:34:28 create directory directory//avahi and add 755 root
+2024-03-21 14:34:28 create directory directory//speech-dispatcher and add 755 root
+2024-03-21 14:34:28 create directory directory//fwupd-refresh and add 755 root
+2024-03-21 14:34:29 create directory directory//saned and add 755 root
+2024-03-21 14:34:29 create directory directory//geoclue and add 755 root
+2024-03-21 14:34:29 create directory directory//polkitd and add 755 root
+2024-03-21 14:34:29 create directory directory//rtkit and add 755 root
+2024-03-21 14:34:29 create directory directory//colord and add 755 root
+2024-03-21 14:34:29 create directory directory//gnome-initial-setup and add 755 root
+2024-03-21 14:34:29 create directory directory//Debian-gdm and add 755 root
+2024-03-21 14:34:29 create directory directory//zinnur41 and add 755 root
+2024-03-21 14:34:29 creating directories completed
