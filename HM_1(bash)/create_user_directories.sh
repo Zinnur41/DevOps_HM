@@ -6,12 +6,15 @@ log() {
 }
 
 create_user_directory() {
-    username=$1
-    directory=$2
-    mkdir -p "$directory/$username"
-    chmod 755 "$directory/$username"
-    chown "$username:$username" "$directory/$username"
-    log "create directory $directory/$username and add 755 root"
+    local username=$1
+    local directory=$2
+    local groupname=$(id -gn "$username")
+    mkdir -p "$directory/$username" && chmod 755 "$directory/$username" && chown "$username:$groupname" "$directory/$username"
+    if [ -d "$directory/$username" ]; then
+        log "create directory $directory/$username and add 755 root ($username:$groupname)"
+    else
+        log "Error: Failed to create directory $directory/$username"
+    fi
 }
 
 if [ "$1" == "-d" ]; then
@@ -26,11 +29,10 @@ if [ ! -d "$root_directory" ]; then
 fi
 
 log "creating user directories"
-
 while IFS=: read -r username _; do
     if [ "$username" != "nobody" ]; then
         create_user_directory "$username" "$root_directory"
     fi
-done < /etc/passwd
 
+done < /etc/passwd
 log "creating directories completed"
