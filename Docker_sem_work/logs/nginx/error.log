@@ -1,0 +1,2 @@
+2024/05/19 18:47:15 [error] 29#29: *2 directory index of "/var/www/html/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/05/19 18:50:52 [error] 29#29: *5 directory index of "/var/www/html/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
