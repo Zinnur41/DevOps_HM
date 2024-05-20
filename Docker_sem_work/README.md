@@ -26,7 +26,7 @@
 ## Запуск
 1) .\scripts\build.sh -t v1 
 2) .\scripts\deploy.sh -t v1
-3) 
+   
 ### Приложение
 <img width="922" alt="Снимок экрана 2024-05-20 193909" src="https://github.com/Zinnur41/DevOps_HM/assets/89980369/772169a7-5976-404d-8527-9f349487fd64">
 
